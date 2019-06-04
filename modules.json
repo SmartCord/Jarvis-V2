@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "index": 0,
+            "module_name": "Time Check",
+            "process_name": "time_check",
+            "filename": "time_check.py",
+            "action": "Gives you the current time",
+            "block": true,
+            "query": false,
+            "get_output": true,
+            "triggers": [
+                {
+                    "startswith": true,
+                    "trigger": "time check"
+                },
+                {
+                    "startswith": true,
+                    "trigger": "what time is it"
+                }
+            ]
+        },
+        {
+            "index": 0,
+            "module_name": "Google Search Text",
+            "process_name": "google_search_text",
+            "filename": "google_search_text.py",
+            "action": "Google Search",
+            "block": false,
+            "query": true,
+            "get_output": false,
+            "triggers": [
+                {
+                    "startswith": true,
+                    "trigger": "google {q}"
+                },
+                {
+                    "startswith": true,
+                    "trigger": "can you google {q}"
+                }
+            ]
+        }
+    ]
+}

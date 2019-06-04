@@ -1,0 +1,22 @@
+{
+    "modules": {
+        "filepath": "/path/to/modules.json",
+        "content_folder": "/path/to/modules_folder"
+    },
+    "startup_modules": {
+        "filepath": "/path/to/startup_modules.json",
+        "content_folder": "/path/to/startup_modules_folder"
+    },
+    "name": "Jarvis",
+    "launch": "python",
+    "voice_recognition": {
+        "energy_threshold": 2500,
+        "pause_threshold": 1.0,
+        "dynamic_energy_threshold": false
+    },
+    "say_command": "say",
+    "port": 5000,
+    "host": "127.0.0.1",
+    "debug": false,
+    "use_reloader": false
+}
