@@ -11,7 +11,7 @@
     "launch": "python",
     "voice_recognition": {
         "energy_threshold": 2500,
-        "pause_threshold": 1.0,
+        "pause_threshold": 0.8,
         "dynamic_energy_threshold": false
     },
     "say_command": "say",
