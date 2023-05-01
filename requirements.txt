@@ -2,7 +2,7 @@
 # https://github.com/damnever/pigar
 
 # app.py: 1
-Flask == 1.0.2
+Flask == 2.3.2
 
 # app.py: 2
 Flask_SocketIO == 3.0.2
